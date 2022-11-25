@@ -1,0 +1,47 @@
+.newsletter {
+  display: flex;
+  align-items: flex-end;
+}
+
+.newsletter__label {
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  color: var(--bright-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 03%;
+  text-transform: uppercase;
+}
+
+.newsletter__input {
+  color: var(--bright-color);
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--border-radius);
+  width: 358px;
+  padding: 15px 16px;
+
+  &::placeholder {
+    font-family: Roboto;
+    color: var(--bright-color);
+    opacity: 0.6;
+  }
+}
+
+.newsletter__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--bright-color);
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 12px;
+}
+
+.newsletter__send-icon {
+  display: block;
+  fill: var(--bright-color);
+  margin-left: 24px;
+}
