@@ -22,12 +22,12 @@
   text-decoration: none;
   padding-left: 50px;
   transition-property: color;
-  transition-duration: var(--animation-duration);
-  transition-timing-function: var(--animation-duration);
+  transition-duration: var($animationDuration);
+  transition-timing-function: var($animationTimingFunction);
 
   &:hover,
   &:focus {
-    color: var(--highlight-color);
+    color: $highlight-color;
     --color2: currentColor;
   }
 }
@@ -45,12 +45,12 @@
   color: #ffffff;
   text-decoration: none;
   transition-property: color;
-  transition-duration: var(--animation-duration);
-  transition-timing-function: var(--animation-duration);
+  transition-duration: var($animationDuration);
+  transition-timing-function: var($animationTimingFunction);
 
   &:hover,
   &:focus {
-    color: var(--highlight-color);
+    color: $highlight-color;
   }
 }
 
@@ -61,11 +61,11 @@
   text-decoration: none;
   opacity: 60%;
   transition-property: color;
-  transition-duration: var(--animation-duration);
-  transition-timing-function: var(--animation-duration);
+  transition-duration: var($animationDuration);
+  transition-timing-function: var($animationTimingFunction);
 
   &:hover,
   &:focus {
-    color: var(--highlight-color);
+    color: $highlight-color;
   }
 }

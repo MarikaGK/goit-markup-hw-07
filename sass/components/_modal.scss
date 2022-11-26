@@ -3,7 +3,7 @@
   width: 520px;
   margin: auto;
   padding: 40px;
-  background-color: var(--bright-color);
+  background-color: $bright-color;
 }
 
 .modal__header {
@@ -11,7 +11,7 @@
   font-family: Roboto;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--bold-color);
+  color: $bold-color;
   margin: 0 auto;
   margin-bottom: 12px;
 }

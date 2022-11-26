@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--bckgr-dark-color);
+  background-color: $bckgr-dark-color;
 }
 
 .footer__items {
@@ -27,7 +27,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  color: var(--bright-color);
+  color: $bright-color;
   text-transform: uppercase;
   margin-bottom: 20px;
 }

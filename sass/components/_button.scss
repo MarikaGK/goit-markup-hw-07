@@ -1,16 +1,16 @@
 .button {
   width: 200px;
   height: 50px;
-  background-color: var(--highlight-color);
+  background-color: $highlight-color;
   border: 0;
-  border-radius: var(--border-radius);
-  color: var(--bright-color);
+  border-radius: $borderRadius;
+  color: $bright-color;
   font-weight: 700;
   letter-spacing: 6%;
   cursor: pointer;
   transition-property: background-color, color, box-shadow;
-  transition-duration: var(--animation-duration);
-  transition-timing-function: var(--animation-duration);
+  transition-duration: var($animationDuration);
+  transition-timing-function: var($animationTimingFunction);
   &:hover,
   &:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

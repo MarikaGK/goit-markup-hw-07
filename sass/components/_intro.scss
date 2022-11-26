@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--bckgr-dark-color);
+  background-color: $bckgr-dark-color;
   background-image: linear-gradient(to top, var(--color5), rgba(0, 0, 0, 0.1)),
     url("../images/intro-bckgr.jpg");
   background-size: cover;
@@ -17,7 +17,7 @@
 
 .intro__header {
   text-align: center;
-  color: var(--bright-color);
+  color: $bright-color;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
