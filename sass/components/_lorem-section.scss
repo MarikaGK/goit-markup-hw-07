@@ -14,7 +14,7 @@
 .lorem-section__icon {
   display: flex;
   justify-content: center;
-  background-color: var(--icon-bckgr-color);
+  background-color: $icon-bckgr-color;
   border-radius: $borderRadius;
   padding: 25px 0;
   margin-bottom: 30px;

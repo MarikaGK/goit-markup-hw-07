@@ -4,7 +4,7 @@
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: $bckgr-dark-color;
-  background-image: linear-gradient(to top, var(--color5), rgba(0, 0, 0, 0.1)),
+  background-image: linear-gradient(to top, $color5, rgba(0, 0, 0, 0.1)),
     url("../images/intro-bckgr.jpg");
   background-size: cover;
 }

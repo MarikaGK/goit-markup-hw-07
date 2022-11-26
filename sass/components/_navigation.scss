@@ -17,8 +17,8 @@
   text-decoration: none;
   margin-right: 45px;
   transition-property: color;
-  transition-duration: var($animationDuration);
-  transition-timing-function: var($animationTimingFunction);
+  transition-duration: $animationDuration;
+  transition-timing-function: $animationTimingFunction;
 
   &:hover,
   &:focus {

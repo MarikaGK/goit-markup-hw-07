@@ -38,8 +38,8 @@ body {
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.4);
   transition-property: transform;
-  transition-duration: var($animationDuration);
-  transition-timing-function: var($animationTimingFunction);
+  transition-duration: $animationDuration;
+  transition-timing-function: $animationTimingFunction;
 }
 
 .is-hidden {

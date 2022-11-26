@@ -1,5 +1,5 @@
 .result-card {
-  flex-basis: calc((1200px-60px) / 3-0.5px);
+  flex-basis: calc((1170px - 60px) / 3 - 0.5px);
   background-color: $bright-color;
   transition-property: box-shadow;
   transition-duration: $animationDuration;

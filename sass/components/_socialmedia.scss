@@ -5,12 +5,12 @@
   width: 44px;
   height: 44px;
   background-color: $bright-color;
-  color: var(--color4);
+  color: $color4;
   border-radius: 50%;
   will-change: background-color, color;
   transition-property: background-color, color;
-  transition-duration: var($animationDuration);
-  transition-timing-function: var($animationTimingFunction);
+  transition-duration: $animationDuration;
+  transition-timing-function: $animationTimingFunction;
   &:hover,
   &:focus {
     background-color: $color1;
@@ -25,10 +25,10 @@
 
 .socialmedia__link--footer {
   background-color: rgba(255, 255, 255, 0.1);
-  --color4: $bright-color;
+  will-change: background-color;
   transition-property: background-color;
-  transition-duration: var($animationDuration);
-  transition-timing-function: var($animationTimingFunction);
+  transition-duration: $animationDuration;
+  transition-timing-function: $animationTimingFunction;
   &:hover,
   &:focus {
     background-color: $color1;

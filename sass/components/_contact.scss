@@ -22,8 +22,8 @@
   text-decoration: none;
   padding-left: 50px;
   transition-property: color;
-  transition-duration: var($animationDuration);
-  transition-timing-function: var($animationTimingFunction);
+  transition-duration: $animationDuration;
+  transition-timing-function: $animationTimingFunction;
 
   &:hover,
   &:focus {
@@ -45,8 +45,8 @@
   color: #ffffff;
   text-decoration: none;
   transition-property: color;
-  transition-duration: var($animationDuration);
-  transition-timing-function: var($animationTimingFunction);
+  transition-duration: $animationDuration;
+  transition-timing-function: $animationTimingFunction;
 
   &:hover,
   &:focus {
@@ -61,8 +61,8 @@
   text-decoration: none;
   opacity: 60%;
   transition-property: color;
-  transition-duration: var($animationDuration);
-  transition-timing-function: var($animationTimingFunction);
+  transition-duration: $animationDuration;
+  transition-timing-function: $animationTimingFunction;
 
   &:hover,
   &:focus {

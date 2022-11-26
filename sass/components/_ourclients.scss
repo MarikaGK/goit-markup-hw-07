@@ -1,4 +1,5 @@
 .ourclients__header {
+  text-align: center;
   color: $dark-color;
   font-size: 36px;
   font-weight: 700;
@@ -13,14 +14,14 @@
 .ourclients__link {
   display: block;
   width: 170px;
-  color: var(--color4);
+  color: $color4;
   border-radius: $borderRadius;
-  border: 1px solid var(--color4);
+  border: 1px solid $color4;
   padding: 17.71px 32px 13.25px;
   will-change: border, color;
   transition-property: border, color;
-  transition-duration: var($animationDuration);
-  transition-timing-function: var($animationTimingFunction);
+  transition-duration: $animationDuration;
+  transition-timing-function: $animationTimingFunction;
 
   &:hover,
   &:focus {
